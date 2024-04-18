@@ -17,7 +17,6 @@ const LazyPaymentPage = lazy(() => import("../pages/PaymentPage"));
 const LazyShopPage = lazy(() => import("../pages/shop/ShopPage"));
 const LazyDetailPage = lazy(() => import("../pages/shop/DetailPage"));
 const LazyCartPage = lazy(() => import("../pages/CartPage"));
-// const LazyMapPage = lazy(() => import("../pages/map/MapPage"));
 
 const router = createBrowserRouter([
   {
